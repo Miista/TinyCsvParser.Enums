@@ -1,0 +1,45 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Tooling", "0. Tooling", "{5FE5909C-03BB-4E98-8EB1-E4112E6B4E3E}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.cake = ..\build.cake
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+		..\nuget\TinyCsvParser.Enums.nuspec = ..\nuget\TinyCsvParser.Enums.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Project", "1. Project", "{CBD56273-E2F1-44BA-A34C-F74412953D7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Feature", "2. Feature", "{E1B8B3DB-C5DB-45BF-96CA-9B05F520A100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{1EAC2148-254D-4EE3-8F62-83067A921BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCsvParser.Enums", "TinyCsvParser.Enums\TinyCsvParser.Enums.csproj", "{A5A4FD96-F18C-420D-9E24-60BA25623851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCsvParser.Enums.Tests", "TinyCsvParser.Enums.Tests\TinyCsvParser.Enums.Tests.csproj", "{490CFF73-EC52-4254-AA63-57F547224074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EAC2148-254D-4EE3-8F62-83067A921BD9} = {CBD56273-E2F1-44BA-A34C-F74412953D7C}
+		{A5A4FD96-F18C-420D-9E24-60BA25623851} = {E1B8B3DB-C5DB-45BF-96CA-9B05F520A100}
+		{490CFF73-EC52-4254-AA63-57F547224074} = {E1B8B3DB-C5DB-45BF-96CA-9B05F520A100}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EAC2148-254D-4EE3-8F62-83067A921BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAC2148-254D-4EE3-8F62-83067A921BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAC2148-254D-4EE3-8F62-83067A921BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAC2148-254D-4EE3-8F62-83067A921BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A4FD96-F18C-420D-9E24-60BA25623851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A4FD96-F18C-420D-9E24-60BA25623851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A4FD96-F18C-420D-9E24-60BA25623851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A4FD96-F18C-420D-9E24-60BA25623851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490CFF73-EC52-4254-AA63-57F547224074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490CFF73-EC52-4254-AA63-57F547224074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490CFF73-EC52-4254-AA63-57F547224074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490CFF73-EC52-4254-AA63-57F547224074}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
