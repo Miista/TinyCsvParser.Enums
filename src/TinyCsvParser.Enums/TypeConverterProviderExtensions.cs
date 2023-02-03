@@ -5,7 +5,7 @@ namespace TinyCsvParser.Enums
 {
     public static class TypeConverterProviderExtensions
     {
-        public static ITypeConverterProvider AddEnums(this TypeConverterProvider typeConverterProvider)
+        public static ITypeConverterProvider AddEnums(this ITypeConverterProvider typeConverterProvider)
         {
             if (typeConverterProvider == null) throw new ArgumentNullException(nameof(typeConverterProvider));
 
