@@ -1,3 +1,7 @@
+<!--[![Build status](https://dev.azure.com/palmund/Typesafe.Snapshots/_apis/build/status/Typesafe.Snapshots)](https://dev.azure.com/palmund/Typesafe.Snapshots/_build/latest?definitionId=11)-->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![NuGet version](https://badge.fury.io/nu/TinyCsvParser.Enums.svg)](https://www.nuget.org/packages/TinyCsvParser.Enums)
+
 [MIT License]: https://opensource.org/licenses/MIT
 
 # TinyCsvParser.Enums
