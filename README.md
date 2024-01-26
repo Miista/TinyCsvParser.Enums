@@ -53,4 +53,4 @@ Console.WriteLine(result[0].Result.Value.ToString()); // Prints A
 
 ## License
 
-The library is released under terms of the [MIT License].
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
